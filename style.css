@@ -1,11 +1,11 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
     font-family: 'Poppin' , sans-serif;
-    background-image: url(Images/mourad-saadi-GyDktTa0Nmw-unsplash.jpg);
+    background-image: url(Images/mourad-saadi-GyDktTa0Nmw-unsplash.jpg); 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,7 +124,7 @@ z-index: 2;
     z-index: 100;
 }
 .o{
-    background-image: url(Images/art1.jpg);
+    background-image: url(Images/art1.jpg); 
     background-size: 50%;
     position: relative;
     left: -100%;
@@ -173,4 +173,4 @@ z-index: 2;
 .container.right-panel-active .o-left{
     transform: translateX(0);
     
-}
+} */
