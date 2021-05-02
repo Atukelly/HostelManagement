@@ -29,14 +29,19 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
     background: url('./images/beach-bg.jpg');
     background-position: center;
+    transition: left 1s cubic-bezier(0, 1.31, 0.86, 0.96);;
 }
 form{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.register{
+    margin-top:50px;
 }
 input{
     margin:10px;
@@ -83,10 +88,13 @@ input[type='text']:focus,input[type='email']:focus,input[type='password']:focus{
     color:orange
 }
 .btnChange{
+    border:solid 1px black;
+    color:black;
+}
+.btnChange:hover{
     background:black;
     color:white;
 }
-.btnChange:hover{
-    border:solid 1px black;
-    color:black;
+.btn:focus{
+    outline: none;
 }
