@@ -15,30 +15,47 @@
 
 <body>
     <div class="form-container" id="container">
-        <!--SingUp-->
-        <form action="#" method="POST" enctype="multipart/form-data" autocomplete='off' class="sign-up">
-            <h2>Create Account!</h2>
-            <span>Full Name</span>
-            <input type="text" name="name" id="" required>
-            <span>Email</span>
-            <input type="email" name="email" id="" required>
-            <span>Registration Number</span>
-            <input type="text" name="text" id="" required>
-            <span>Password</span>
-            <input type="password" name="password" id="" required>
-            <span>Confirm Password</span>
-            <input type="password" name="confirmpassword" id="" required>
-            <button class="button" name="btnsignup">Sign Up</button>
-        </form>
         <!--login-->
-        <form action="#" method="POST" autocomplete="off" class="login">
-            <h2>Sign In</h2>
-            <span>Email</span>
-            <input type="email" name="email" id="" required>
-            <span>Password</span>
-            <input type="password" name="password" id="" required>
-            <button class="button" name="btnsignin">Sign In</button>
-        </form>
+        
+        <div class="form-section login-section">
+            <div class="o-panel right login">
+                <h2> Hello, Valuable User</h2>
+                <p>Enter Your personal Information </p>
+                <button class="btn" id="signIp">Sign Up</button>
+            </div>
+            <form action="#" method="POST" autocomplete="off" class="login login-form">
+                <h2>Sign In</h2>
+                <span>Email</span>
+                <input type="email" name="email" id="" required>
+                <span>Password</span>
+                <input type="password" name="password" id="" required>
+                <button class="button" name="btnsignin">Sign In</button>
+            </form>
+        </div>
+        
+        <!--SingUp--> 
+        <div class="form-section register-section">
+            <form action="#" method="POST" enctype="multipart/form-data" autocomplete='off' class="register register-form">
+                <h2>Create Account!</h2>
+                <span>Full Name</span>
+                <input type="text" name="name" id="" required>
+                <span>Email</span>
+                <input type="email" name="email" id="" required>
+                <span>Registration Number</span>
+                <input type="text" name="text" id="" required>
+                <span>Password</span>
+                <input type="password" name="password" id="" required>
+                <span>Confirm Password</span>
+                <input type="password" name="confirmpassword" id="" required>
+                <button class="button" name="btnsignup">Sign Up</button>
+            </form>
+            <div class="o-panel left register">
+                <h2> Hello, Valuable User</h2>
+                <p>Enter Your personal Information </p>
+                <button class="btn" id="signIp">Sign In</button>
+            </div>
+        </div>
+        
         <!--OverlY SECTION-->
 
         <!-- <div class="o-panel left">
