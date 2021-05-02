@@ -18,25 +18,19 @@
         <!--login-->
         
         <div class="form-section login-section">
-            <div class="o-panel right login">
-                <h2> Hello, Valuable User</h2>
-                <p>Enter Your personal Information </p>
-                <button class="btn" id="signIp">Sign Up</button>
-            </div>
             <form action="#" method="POST" autocomplete="off" class="login login-form">
                 <h2>Sign In</h2>
                 <span>Email</span>
                 <input type="email" name="email" id="" required>
                 <span>Password</span>
                 <input type="password" name="password" id="" required>
-                <button class="button" name="btnsignin">Sign In</button>
+                <button class="btn btnSubmit" name="btnsignin">Sign In</button>
             </form>
         </div>
         
         <!--SingUp--> 
         <div class="form-section register-section">
-            <form action="#" method="POST" enctype="multipart/form-data" autocomplete='off' class="register register-form">
-                <h2>Create Account!</h2>
+            <form action="#" method="POST"  autocomplete="off" class="register register-form">
                 <span>Full Name</span>
                 <input type="text" name="name" id="" required>
                 <span>Email</span>
@@ -47,39 +41,15 @@
                 <input type="password" name="password" id="" required>
                 <span>Confirm Password</span>
                 <input type="password" name="confirmpassword" id="" required>
-                <button class="button" name="btnsignup">Sign Up</button>
-            </form>
-            <div class="o-panel left register">
+                <button class="btn btnSubmit" name="btnsignup">Sign Up</button>
+            </form>  
+        </div>
+        <div class="o-panel left" style="left:0%">
                 <h2> Hello, Valuable User</h2>
                 <p>Enter Your personal Information </p>
-                <button class="btn" id="signIp">Sign In</button>
-            </div>
+                <button class="btn btnChange" id="formChange">Sign Up</button>
         </div>
-        
-        <!--OverlY SECTION-->
-
-        <!-- <div class="o-panel left">
-            <h2> Welcome to Our Service </h2>
-            <p>Login with your personal Information </p>
-            <button class="btn" id="signUp">Sign Up</button>
-        </div>
-        <div class="o-panel left">
-            <h2> Hello, Valuable User</h2>
-            <p>Enter Your personal Information </p>
-            <button class="btn" id="signIp">Sign In</button>
-        </div> -->
-
     </div>
-    </div>
-    <!-- <script type="text/javascript">
-        const signUpButton = document.getElementById('signUp');
-        const signInButton = document.getElementById('signIn');
-        const container = document.getElementById('container');
-
-        signUpButton.addEventListener('click', () => container.classList.add('right-panel-active'));
-        signInButton.addEventListener('click', () => container.classList.remove('right-panel-active'));
-
-    </script> -->
 </body>
 
 </html>
