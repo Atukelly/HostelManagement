@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <div class="form-container" id="container">
+        <!--login-->
+        
+        <div class="form-section login-section">
+            <form action="#" method="POST" autocomplete="off" class="login" id='loginForm'>
+                <h2>Sign In</h2>
+                <span>Email</span>
+                <input type="email" name="email" id="" required>
+                <span>Password</span>
+                <input type="password" name="password" id="" required>
+                <button class="btn btnSubmit" name="btnsignin">Sign In</button>
+            </form>
+        </div>
+        
+        <!--SingUp--> 
+        <div class="form-section register-section">
+            <form action="#" method="POST"  autocomplete="off" class="register" id='registerForm' style="display:none">
+                <span>Full Name</span>
+                <input type="text" name="name" id="" required>
+                <span>Email</span>
+                <input type="email" name="email" id="" required>
+                <span>Registration Number</span>
+                <input type="text" name="text" id="" required>
+                <span>Password</span>
+                <input type="password" name="password" id="" required>
+                <span>Confirm Password</span>
+                <input type="password" name="confirmpassword" id="" required>
+                <button class="btn btnSubmit" name="btnsignup">Sign Up</button>
+            </form>  
+        </div>
+        <div class="o-panel" style="left:0%" id='overlay'>
+                <h2 id='message-head'> Hello, Valuable User</h2>
+                <p id='message-content'>Register with your Personal Information </p>
+                <button class="btn btnChange" id="formChange">Sign Up</button>
+        </div>
+    </div>
+    <script src='script.js'></script>
+</body>
+
+</html>
